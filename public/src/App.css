@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-color: darkslategrey;
+}
+
+#banner {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 50px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: red;
+  font-weight: 1000;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+}
+
+span {
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.quoteContainer {
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-color: transparent;
+  display: block;
+  margin: 50px auto 0;
+  width: 60%;
+  height: 500px;
+  color: #fff;
+  padding: 10px;
+  overflow: auto;
+  float: right;
+}
+
+form {
+  background-color: transparent;
+  display: block;
+  margin: 50px auto 0;
+  width: 90%;
+  height: 60px;
+  color: white;
+  padding: 10px;
+}
+
+.indQuote {
+  background-color: transparent;
+  display: block;
+  margin: 50px auto 0;
+  width: 90%;
+  height: 60px;
+  color: #fff;
+  padding: 10px;
+}
+
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/210000/velka/friedhof.jpg");
+}
