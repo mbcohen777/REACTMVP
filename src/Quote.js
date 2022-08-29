@@ -5,9 +5,9 @@ export default function Quote({ quote }) {
     <ul className="indQuote">
       <li key={quote.id}>
         <span>{quote.id}</span>
-        <span>{quote.quote}</span>
+        <span><em>{quote.quote}</em></span>
         <span>{quote.person_name}</span>
-      </li>
+        </li>
     </ul>
   );
 }

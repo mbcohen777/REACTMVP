@@ -3,6 +3,11 @@
   background-color: darkslategrey;
 }
 
+@keyframes change {
+  from {color: red;}
+  to {color: yellow;}
+}
+
 #banner {
   text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
@@ -14,11 +19,16 @@
   text-decoration: none;
   font-style: italic;
   font-variant: normal;
-  text-transform: none;
+   background: transparent;
+letter-spacing: .1em;
+animation-name: change;
+animation-duration: 10s;
+animation-iteration-count: infinite;
 }
 
 span {
   padding: 20px;
+  font-size: 30px;
 }
 
 h1 {
@@ -36,6 +46,7 @@ h1 {
   padding: 10px;
   overflow: auto;
   float: right;
+  scroll-behavior: smooth;
 }
 
 form {
@@ -60,4 +71,12 @@ form {
 
 body {
   background-image: url("https://www.publicdomainpictures.net/pictures/210000/velka/friedhof.jpg");
+}
+
+#flip {
+-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
 }
