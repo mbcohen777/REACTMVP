@@ -58,7 +58,11 @@ function App() {
     })
       .then((response) => response.json())
 
-      .then((json) => console.log(json));
+      .then((deletedQuote) => {
+        const newQuotes = quotes.filter(quote => quote.id !== deletedQuote.id)
+        console.log(newQuotes);
+        selectQuote(newQuotes);
+      });
   }
 
   return (
