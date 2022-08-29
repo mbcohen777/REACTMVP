@@ -105,6 +105,7 @@ function clickRed() {
         <br></br>
         <button type="submit">add quote</button>
       </form>
+      <br></br>
       <form onSubmit={deleteQuote}>
         <br></br>
         <h1 title="this is where you can delete a quote">Delete A Quote</h1>
