@@ -7,6 +7,7 @@ CREATE TABLE dead_people (
     );
 
 CREATE TABLE quotes (
+    id SERIAL PRIMARY KEY,
     quote TEXT,
     original_language TEXT,
     person_name TEXT
